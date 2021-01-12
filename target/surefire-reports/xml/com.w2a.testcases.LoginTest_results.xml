@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="4.414">
+  <properties />
+            <testcase name="loginTest" time="4.414" classname="com.w2a.testcases.LoginTest">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="element click intercepted: Element &lt;a class=&quot;zh-login&quot; href=&quot;https://accounts.zoho.in/signin?servicename=ZohoHome&amp;amp;signupurl=https://www.zoho.com/signup.html&quot; target=&quot;&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/a&gt; is not clickable at point (796, 33). Other element would receive the click: &lt;a class=&quot;zh-support&quot; href=&quot;https://help.zoho.com/portal/home&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.32 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-6RCEUOS&apos;, ip: &apos;172.23.240.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59328}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\akash\AppData\Local\Temp\scoped_dir12924_1511049702}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1a08732e92d16eb6e288d057a9c2d9e7"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <a class="zh-login" href="https://accounts.zoho.in/signin?servicename=ZohoHome&amp;signupurl=https://www.zoho.com/signup.html" target="" style="opacity: 1;">...</a> is not clickable at point (796, 33). Other element would receive the click: <a class="zh-support" href="https://help.zoho.com/portal/home" target="_blank" rel="noopener">...</a>
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.32 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-6RCEUOS', ip: '172.23.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59328}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\akash\AppData\Local\Temp\scoped_dir12924_1511049702}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1a08732e92d16eb6e288d057a9c2d9e7
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+  com.w2a.base.Page.click(Page.java:95)
+  com.w2a.pages.HomePage.goToLogin(HomePage.java:21)
+  com.w2a.testcases.LoginTest.loginTest(LoginTest.java:24)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

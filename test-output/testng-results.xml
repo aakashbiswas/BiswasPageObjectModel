@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case passed for you]]>
+    </line>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="3476" started-at="2021-01-09T11:10:02Z" finished-at="2021-01-09T11:10:05Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="3476" started-at="2021-01-09T11:10:02Z" finished-at="2021-01-09T11:10:05Z">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@76a36b71]" name="loginTest" duration-ms="3032" started-at="2021-01-09T16:40:02Z" finished-at="2021-01-09T16:40:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed for you]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@76a36b71]" name="tearDown" is-config="true" duration-ms="1717" started-at="2021-01-09T16:40:05Z" finished-at="2021-01-09T16:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Page Object Model -->
+</testng-results>
